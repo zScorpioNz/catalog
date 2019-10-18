@@ -1,0 +1,59 @@
+
+  /* TABS  https://bootsnipp.com/snippets/vl4Vb Inicio  */
+
+  .nav{
+    background-color: #000000;
+    padding: 0px;
+    /* padding: 25px; */
+    color: rgb(212, 0, 255);
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+a:hover{color:rgb(212, 0, 255);}
+
+i{color:rgb(212, 0, 255);}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    /* color: #336683 !important; */
+    color: rgb(212, 0, 255) !important;
+    background-color: rgb(212, 0, 255) !important;
+    border-color: transparent transparent #1F1D21;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    color: #eee;
+    font-size: 20px;
+    background-color: rgb(212, 0, 255);
+    border: 1px solid #1F1D21;
+    color: rgb(212, 0, 255);
+}
+
+.nav-item {
+    border-radius: 0 !important;
+    color:rgb(212, 0, 255);
+}
+
+.nav-item:last-child {
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+
+.nav-item:first-child {
+    border-top-left-radius: .5rem !important;
+    border-bottom-left-radius: .5rem !important;
+}
+
+.nav-tabs .nav-link.active{
+   background-color: #1F1D21 !important; 
+}
+
+/* TABS Fim */
+
+/* CUSTOM TAB Inicio*/
+.nav-item i{
+    font-size: 1.6em; color: rgb(212, 0, 255);
+}
+
+/* CUSTOM TAB Fim*/

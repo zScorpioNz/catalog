@@ -1,1 +1,3 @@
-<p>Testeeee</p>
+<?php
+include "src/app.php";
+?>
