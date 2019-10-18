@@ -16,3 +16,8 @@
 # #000000 #711BC1 #AA9EB5 #1F1D21 #837A8C
 # rgb(212, 0, 255)
 # https://color.adobe.com/pt/create
+
+# WALLPAPER CAVE https://wallpapercave.com/2020-mercedes-benz-cla-wallpapers
+
+# CARD PRODUTO
+# https://bootsnipp.com/snippets/5Keev

@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- cor navegador
     https://blog.mxcursos.com/mudando-cor-do-browser-de-acordo-com-seu-site-no-mobile/ -->
-    <meta name="theme-color" content="black">
+    <meta name="theme-color" content="#0098ac">
+
 
     <title>Catalog Project</title>
 
