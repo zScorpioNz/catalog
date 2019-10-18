@@ -1,0 +1,22 @@
+{
+  "name": "catalog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zScorpioNz/catalog.git"
+  },
+  "author": "Rafael / Cleiton\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DZeze\u001b[2~ Cleiton\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DZé\u001b[2~ Rafael/ Z\u001b[C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zScorpioNz/catalog/issues"
+  },
+  "homepage": "https://github.com/zScorpioNz/catalog#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
