@@ -10,10 +10,7 @@
 
     <title>Document</title>
 
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../custom/css/tabs.css">
-    <link rel="stylesheet" href="../custom/css/custom.css">
-    <link rel="stylesheet" href="../assets/fontawesome_5.11/css/all.css">
+    <?php include "script/routeHead.php"; ?>
 
 
 </head>
@@ -58,7 +55,8 @@
                       Aqui vai ficar o conteudo da pagina home conforme wireframe do projeto
                     </div>
                     <div class="tab-pane fade" id="nav-promocao" role="tabpanel" aria-labelledby="nav-promocao-tab">
-                      Aqui vai ficar todas promções em cards
+                      <p>Aqui vai ficar todas promções em cards</p>
+                      <?php include "page/produtosCard.php";?>
                     </div>
                     <div class="tab-pane fade" id="nav-busca" role="tabpanel" aria-labelledby="nav-busca-tab">
                       Aqui vai ficar o botão para aparecer o icone de busca estilo accordion
