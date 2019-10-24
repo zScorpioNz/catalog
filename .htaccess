@@ -1,0 +1,8 @@
+
+#Options -Indexes
+#<FilesMatch "\.(txt|sql|img)$">
+#</FilesMatch>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ src/login.php?url=$1  
