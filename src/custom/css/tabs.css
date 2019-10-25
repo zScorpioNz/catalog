@@ -1,7 +1,7 @@
 
-  /* TABS  https://bootsnipp.com/snippets/vl4Vb Inicio  */
+/* TABS  https://bootsnipp.com/snippets/vl4Vb Inicio  */
 
-  .nav{
+.nav{
     background-color: #000000;
     padding: 0px;
     /* padding: 25px; */
@@ -46,14 +46,46 @@ i{color:rgb(212, 0, 255);}
 }
 
 .nav-tabs .nav-link.active{
-   background-color: #1F1D21 !important; 
+ background-color: #1F1D21 !important; 
 }
 
 /* TABS Fim */
 
 /* CUSTOM TAB ICONE Inicio*/
 .nav-item i{
-    font-size: 1.6em; color: rgb(212, 0, 255);
+    font-size: 1.6em;
+    color: #fff; 
+    /*color: rgb(212, 0, 255);*/
+}
+
+.navbar .fas{
+    color: #fff;
+}
+.item-titulo-ico{
+    color: #fff;
 }
 
 /* CUSTOM TAB ICONE Fim*/
+
+
+/* BACKGRAUND FUNDO DO CONTEÚDO TAB */
+.tab-fundo{
+    background-color: #fff;
+}
+
+
+/* CSS TELA HOME */
+
+.card-marca{
+    margin-top: 10px;
+}
+.card-titulo-home h3{
+    font-size: 1.3em;
+}
+.card-btn-custom{
+    color: #fff;
+    background-color: #3399cc;
+    -webkit-box-shadow: 10px 14px 14px -5px rgba(67,71,71,0.46);
+    -moz-box-shadow: 10px 14px 14px -5px rgba(67,71,71,0.46);
+    box-shadow: 10px 14px 14px -5px rgba(67,71,71,0.46);
+}

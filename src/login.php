@@ -7,18 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- cor navegador
     https://blog.mxcursos.com/mudando-cor-do-browser-de-acordo-com-seu-site-no-mobile/ -->
-    <meta name="theme-color" content="#0098ac">
+    <!-- <meta name="theme-color" content="#0098ac"> -->
 
-
-    <title> Catalog Project </title>
+    <title> Catalog Dashboard </title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="src/assets/bootstrap.min.css">
-    
     <link rel="stylesheet" href="src/assets/fontawesome_5.11/css/all.css">
     <link rel="stylesheet" href="src/custom/css/login.css">
-
 
 </head>
 <body>
@@ -28,21 +24,24 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-            <h5 class="card-title text-center"><span style="font-size:2em;"><i class="fas fa-certificate">
-              
+            <h5 class="card-title text-center"><span style="font-size:2em;"><i class="fas fa-certificate">             
             </i></span><br> CATALOG </h5>
-            <form class="form-signin" action="src/layout/home.php">
+            
+            <form class="form-signin" action="src/layout/home.php" method="post">
+              
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de email">
-                <label for="inputEmail">Email</label>
+                <input type="email" id="inputEmail" class="form-control" 
+                placeholder="Endereço de email">
+                <label> Email </label>
               </div>
 
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password">
-                <label for="inputPassword">Senha</label>
+                <label>Senha</label>
               </div>
 
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Entrar</button>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">
+              Entrar</button>
               
               <a href="src"></a>
               <hr class="my-4">
