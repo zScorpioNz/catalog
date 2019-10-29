@@ -4,3 +4,26 @@ background-color: #000!important;
 .espaco {
     height: 1300px;
 }
+
+
+
+
+/*css logo e notificação*/
+.ct-header{
+	padding: 15px 0px 15px 0px;
+	background-color: #28ADAB;
+}
+.ct-header i {
+	color: #fff;
+}
+
+/*css carrocel*/
+.ct-carrocel{
+ margin-top: 2px;
+}
+
+/*css titulo da marca*/
+.teste-marca{
+	font-size: 1.2em;
+	font-weight: bold;
+}

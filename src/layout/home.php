@@ -12,72 +12,69 @@
 
     <?php include "route/routeHead.php"; ?>
 
-
   </head>
   <body>
 
-    <!-- Image and text -->
-    <nav class="navbar navbar-dark bg-superdark">
-      <a class="navbar-brand" href="#">
 
-        <h5 class="card-title text-center"><span style="font-size: 1.5em;">
-          <i class="fas fa-certificate"></i>
-        </span> <span class="font-weight-lighter">CATA</span>LOG</h5>
-<!--   
-    <img src="img/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-    Bootstrap -->
-  </a>
-  <!-- adcionar icones -->
-  <i class="fas fa-bell"> 3 </i>
-
-</nav>
-
-
-<div class="container">
+<div class="container ct-header">
   <div class="row">
-    <div class="col-xs-12">
-      <nav class="fixed-bottom">
-        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
-            <span style="">
-              <i class="fas fa-home"></i></span><br>
-              <span class="item-titulo-ico"> Home </span>
-            </a>
-            <a class="nav-item nav-link" id="nav-promocao-tab" data-toggle="tab" href="#nav-promocao" role="tab" aria-controls="nav-promocao" aria-selected="false">
-              <span style="">
-                <i class="fas fa-percentage"></i></span><br>
-                <span class="item-titulo-ico"> Promoção </span>
-              </a>
-              <a class="nav-item nav-link" id="nav-busca-tab" data-toggle="tab" href="#nav-busca" role="tab" aria-controls="nav-busca" aria-selected="false">
-                <span style="">
-                  <i class="fas fa-search"></i></span><br>
-                  <span class="item-titulo-ico"> Busca </span>
-                </a>
-              </div>
-            </nav>
 
-            <div class="tab-content py-0 px-0 px-sm-0 tab-fundo" id="nav-tabContent">
-              
-              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                <?php include "page/CardHome.php" ?>
-              </div>
-
-              <div class="tab-pane fade" id="nav-promocao" role="tabpanel" aria-labelledby="nav-promocao-tab">
-                <p>Aqui vai ficar todas promções em cards</p>
-                <?php include "page/produtosCard.php";?>
-              </div>
-
-
-              <div class="tab-pane fade" id="nav-busca" role="tabpanel" aria-labelledby="nav-busca-tab">
-                Aqui vai ficar o botão para aparecer o icone de busca estilo accordion
-              </div>
-
-            </div>
-          </div>
-        </div>
+    <div class="col-6"> 
+       <h5 class="card-title"><span style="font-size: 1.5em;">
+        <i class="fas fa-certificate"></i>
+      </span> <span class="font-weight-lighter"> CATA </span> LOG </h5>
       </div>
+
+    <div class="col-6 text-right"> 
+      <h5 class="card-title"><span style="font-size: 1em;">
+       <i class="fas fa-bell"> 3 </i></span></h5>
     </div>
+
   </div>
+</div>
+
+
+<div class="container-fluid ct-carrocel">
+  <?php include "page/carrossel.php"; ?>
+</div>  
+
+
+
+   <!-- div tab menu  -->
+<div class="container">
+
+  <ul class="nav nav-tabs fixed-bottom  rc-fundo-fundo">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3 class="text-center"> Marcas </h3>
+
+        <?php include "page/CardHome.php"; ?>
+    </div>
+
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+    </div>
+
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+
+  </div> <!-- Fim tab-content -->
+</div> <!-- Fim do container -->  
+
+
 
 
 
@@ -85,5 +82,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+  <!-- script tab menu -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Fim -->
 </body>
 </html>
