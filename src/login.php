@@ -30,12 +30,12 @@
                 <form class="form-signin" action="src/layout/home.php" method="post">
 
                   <div class="form-label-group">
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Digite seu email">
+                    <input type="email" id="inputEmail" class="form-control">
                     <label> Email </label>
                   </div>
 
                   <div class="form-label-group">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+                    <input type="password" id="inputPassword" class="form-control">
                     <label>Senha</label>
                   </div>
 
