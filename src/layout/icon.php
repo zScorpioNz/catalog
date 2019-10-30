@@ -25,6 +25,7 @@
   <i class="fas fa-tag"></i>
   <i class="fas fa-percentage"></i>
   <i class="fas fa-align-justify"></i>
+  <i class="fas fa-book-open"></i>
 </span>
 
 </body>
